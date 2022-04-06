@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: "Quicksand", sans-serif;
+}
+
+#header-nav {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	color: inherit;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar-light .navbar-brand {
+	color: black;
+}
+
+a:active, a:hover, a:visited {
+	opacity: 1 !important;
+	text-decoration: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#navlist {
+	width: 100%;
+	flex-basis: auto;
+	justify-content: flex-end;
+}
+
+#navlist > a {
+	text-align: right;
+}
+
+.navbar-logo {
+	width:50px; 
+	height:50px;
+}
